@@ -1,0 +1,215 @@
+body{
+	margin:0;
+	color:#6a7d8c;
+    background-image: url(../images/m-bg.jpg);
+    background-size: cover;
+	font:600 16px/18px 'Open Sans',sans-serif;
+}
+*,:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+.login-wrap{
+	width:100%;
+	margin:40px auto;
+	max-width:525px;
+	min-height: 630px;
+	position:relative;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+    border-radius: 20px;
+}
+.login-html{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 90px 70px 50px 70px;
+    background: #d4009708;
+    border-radius: 20px;
+}
+.login-html .sign-in-htm,
+.login-html .sign-up-htm{
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	position:absolute;
+    transform: rotateY(180deg);
+    transition: all 0.8s ease-in-out;
+    transform-style: preserve-3d;
+	backface-visibility:hidden;
+}
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .group .check{
+	display:none;
+}
+.login-html .tab:hover{
+    cursor: pointer;
+    color: #ffffffc6;
+    transition-duration: 0.2s;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button{
+	text-transform:uppercase;
+}
+.login-html .tab{
+	font-size:22px;
+	margin-right:15px;
+	padding-bottom:5px;
+	margin:0 15px 10px 0;
+	display:inline-block;
+	border-bottom:2.5px solid transparent;
+}
+.login-html .sign-in:checked + .tab,
+.login-html .sign-up:checked + .tab{
+	color:#fff;
+	border-color:#32b138;
+    margin-bottom: 30px;
+}
+.login-form{
+	min-height:345px;
+	position:relative;
+	perspective:1000px;
+	transform-style:preserve-3d;
+}
+.login-form .group{
+	margin-bottom:25px;
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button{
+	width:100%;
+	color:#fff;
+	display:block;
+}
+.login-form .group .input,
+.login-form .group .button{
+	border:none;
+	padding:15px 20px;
+	border-radius:46px;
+	background: rgb(94 160 93 / 15%);
+}
+.login-form .group input[data-type="password"]{
+	text-security:circle;
+	-webkit-text-security:circle;
+}
+.login-form .group .label{
+	color:#aaa;
+	font-size:12px;
+}
+.login-form .group .button{
+    background:#284e4d;
+}
+.login-form .group .button:hover{
+    background:#3e7a41;
+}
+.login-form .group label .icon{
+	width:15px;
+	height:15px;
+	border-radius:2px;
+	position:relative;
+	display:inline-block;
+	background:rgba(255,255,255,.1);
+}
+.login-form .group label .icon:before,
+.login-form .group label .icon:after{
+	content:'';
+	width:10px;
+	height:2px;
+	background:#fff;
+	position:absolute;
+	transition:all .2s ease-in-out 0s;
+}
+.login-form .group label .icon:before{
+	left:3px;
+	width:5px;
+	bottom:6px;
+	transform:scale(0) rotate(0);
+}
+.login-form .group label .icon:after{
+	top:6px;
+	right:0;
+	transform:scale(0) rotate(0);
+}
+.login-form .group .check:checked + label{
+	color:#fff;
+}
+.login-form .group .check:checked + label .icon{
+	background:#32b138;
+}
+.login-form .group .check:checked + label .icon:before{
+	transform:scale(1) rotate(45deg);
+}
+.login-form .group .check:checked + label .icon:after{
+	transform:scale(1) rotate(-45deg);
+}
+.login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm{
+	transform:rotate(0);
+}
+.login-html .sign-up:checked + .tab + .login-form .sign-up-htm{
+	transform:rotate(0);
+}
+
+.hr{
+	height: 2px;
+    margin: 45px 0 40px 0;
+    background: rgba(255, 255, 255, 0.377);
+}
+.foot-lnk{
+	text-align:center;
+	color:white;
+	font-size: large;
+	font-weight: bold;
+}
+.foot-lnk:hover{
+    cursor: pointer;
+	color:gold;
+}
+.word {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom:20px;
+    opacity: 0.5;
+}
+.and{
+	opacity: 1;
+}
+.word span {
+    font-size: 29px;
+    margin-top: -40px;
+    padding: 10px;
+}
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+.title {
+    font-family: "Cairo";
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    line-height:2
+}
+span {
+    background-image: url(../images/laser-lights.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 120px;
+
+}
+*::placeholder{
+    color:#29592b;
+	font-size: 16px;
+
+}
+@media(max-width:767px)  {
+	.login-wrap{
+		height: 100vh;
+		margin:0;
+	}
+}

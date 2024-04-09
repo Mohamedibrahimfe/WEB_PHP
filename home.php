@@ -11,16 +11,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
     </link>
-
-
-
     <script src="js/gsap.js" defer></script>
     <script src="js/animation.js" defer></script>
-    <!-- <script>
-    if (document.documentElement.innerHTML.indexOf("Registration Successful!") !== -1) {
-        alert("Registration successful!.");
-    }
-    </script> -->
 </head>
 
 <body>
@@ -49,7 +41,7 @@
             <div class="box">
                 <img src="images/zewail.jpg" alt="ahmedzewail" />
                 <div class="content">
-                    <h3>ahmedzewail <span class="date">(1946-2016)</span></h3>
+                    <h3>Ahmedzewail <span class="date">(1946-2016)</span></h3>
 
                     <p>Nobel Prize in Chemistry 1999</p>
                 </div>

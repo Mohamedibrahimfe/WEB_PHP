@@ -8,21 +8,40 @@
                 <h1 class="word title"><span id="text">Welcome!</span></h1>
                 <h3 class="title and">Registeration form</h3>
                 <div class="group">
-                    <input id="user2" type="text" name="signup_username" class="input" placeholder="Username" required>
+
+                    <?php 
+if(isset($user_error)){
+
+echo '<p style="color: red;margin-left: 10px;font-size: 12px;margin: 0;">* Invalid username</p>';
+
+}
+?>
+                    <input id="user2" type="text" name="signup_username" class="input" placeholder="Username">
                 </div>
                 <div class="group">
+                    <?php 
+if(isset($pass_error)){
+    echo '<p style="color: red;margin-left: 10px;font-size: 12px;margin: 0;"> * Invalid password</p>';
+}
+?>
                     <input id="pass2" type="password" name="signup_password" class="input" data-type="password"
-                        placeholder="Password" required>
+                        placeholder="Password">
                 </div>
                 <div class="group">
-                    <input id="email" type="text" class="input" name="email" placeholder="Email Address" required>
+
+                    <?php
+                if(isset($email_error)){
+echo '<p style="color: red;margin-left: 10px;font-size: 12px;margin: 0;"> * Invalid email</p>';
+}
+?>
+                    <input id="email" type="text" class="input" name="email" placeholder="Email Address">
                 </div>
                 <div class="group">
                     <input type="submit" name="submit" class="button" value="Sign Up">
                 </div>
                 <div class="hr"></div>
                 <div class="foot-lnk">
-                    <label for="tab-1"><a href="signin.php">Already Member?</a></label>
+                    <label for="tab-1"><a class="reg" href="signin.php">Already Member?</a></label>
                 </div>
             </div>
         </div>

@@ -21,5 +21,6 @@
         <li><a class="nav-link" href="/about.html">About</a></li>
         <li><a class="nav-link" href="/contact.html">Skills</a></li>
         <li><a class="nav-link" href="/contact.html">Our Team</a></li>
+        <li><a class="nav-link" href="reg/signin.php">Log Out</a></li>
     </div>
 </nav>

@@ -18,7 +18,7 @@
 <body>
     <?php include "parts/header.php" ?>
 
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="container">
             <div class="left ">
                 <h2 class="Nobel">Kemet Chronicles</h2>
@@ -90,6 +90,91 @@
     </div>
     <div class="spikes"></div>
     <!-- End Articles -->
+
+    <!-- Start Skills -->
+    <!-- End Skills -->
+
+
+    <!-- Contact us -->
+    <div class="contact_us" id="contact_us">
+        <h2 class="title">Quick registeration</h2>
+        <div class="container one plus">
+            <input type="text" placeholder="Enter your email" class="email">
+            <input type="submit" value="Subscibe" class="sub">
+        </div>
+    </div>
+    <!-- End Contact us -->
+
+    <!-- Start about us -->
+    <div class="aboutus" id="about_us">
+        <h2 class="main-title">About Us</h2>
+        <div class="container one">
+            <p class="words">Working on real-time projects has been an incredible learning experience, allowing us to
+                develop our web design skills in a practical setting. We dove headfirst into real-world challenges,
+                transforming our understanding of design from theory to reality
+                WE Are a computer science students at Benha university , The website structure will feature dedicated
+                sections for Nobel laureates and literary figures. Each section will utilize captivating visuals and
+                well-organized content to present biographies, accomplishments, and the lasting impact of these
+                Egyptians on their respective fields.
+            </p>
+            <a href="#team_members" class="team_member">Team Members</a>
+        </div>
+    </div>
+    <!-- Team Members -->
+    <div class="team_members" id="team_members">
+        <div class="container one">
+            <div class="cards">
+                <div class="card">
+                    <img src="" alt="">
+                    <h1>MOHAMED Ibrahim</h1>
+                    <p>FULL-STACK</p>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <h1>AMR WAEL</h1>
+                    <p>FRONT-END</p>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <h1>ABDELNAAEM</h1>
+                    <p>BACK-END</p>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <h1>MOFTA7</h1>
+                    <p>BACK-END</p>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <h1>AYA ZAKRIA</h1>
+                    <p>FRONT-END</p>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <h1>NADA</h1>
+                    <p>FRONT-END</p>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <h1>SALMA</h1>
+                    <p>UI/UX</p>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <h1>HASNAA</h1>
+                    <p>UI/UX</p>
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <h1>MAYAR</h1>
+                    <p>UI/UX</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- End about us -->
 
 
     <!-- <script src="js/bootstrap.js"></script> -->

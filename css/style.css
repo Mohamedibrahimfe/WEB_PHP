@@ -268,7 +268,7 @@ section .container p::before{
 /* Start Articles */
 .articles {
     padding-top: var(--main-padding);
-    padding-bottom: var(--main-padding);
+    padding-bottom: 70px;
     position: relative;
 }
 .articles .container {
@@ -336,3 +336,154 @@ section .container p::before{
     }
 }
 /*END Articles */
+
+
+/*Start Skills */
+/*End Skills */
+
+/* contact us  */
+.contact_us{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: beige;
+}
+.contact_us input{
+    border-radius: 6px;
+    padding:10px;
+}
+.contact_us .sub{
+    background-color: var(--first-c-black);
+    color: white;
+
+}
+.contact_us .email{
+    padding: 10px 20px;
+    width: 400px;
+}
+.plus{
+    text-align: center;
+}
+.title{
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* End contact us  */
+
+
+/*Start About us */
+.aboutus{
+    padding-top: var(--main-padding);
+    padding-bottom: var(--main-padding);
+    background-color: #f3f3f3bd;
+}
+.one{
+    display: block;
+}
+.words{
+    padding: 10px;
+    font-size: 28px;
+    line-height: 1.8;
+    color: #808080 ;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.aboutus a{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight:bold;
+    padding: 20px;
+    font-size:28px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    color: black;
+    margin: auto;
+    display: block;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+.team_members{
+    display: flex;
+    background-color: #f3f3f3bd;
+}
+.card{
+    width: 320px;
+    height: 270px;
+    background: white;
+    cursor: pointer;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+    background-color: white;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform var(--main-transition), box-shadow var(--main-transition);
+    margin: auto;
+    margin-bottom: 25px;
+    position: relative;
+    justify-content: flex-end;
+}
+.card img::before{
+    content: "";
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(255, 251, 12);
+    position: absolute;
+    margin: 0 auto;
+    transform: translate(55%, -50%);
+}
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+}
+.card h1{
+    color: var(--gold-c);
+    font-size: 28px;
+    text-align: center;
+    margin-top: 80px;
+    text-transform: uppercase;
+}
+.card p{
+    color: #808080;
+    font-size: 12px;
+    text-align: center;
+}
+@media screen and (max-width:625px) and (min-width:225px) {
+.cards{
+    width:500px ;
+    row-gap: 20px;
+    column-gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    margin:20px auto;
+}
+.card{
+    width: 125px;
+    height: 200px;
+    background: white;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: 2px solid black;
+    transition: .3s all ease-in-out;
+}
+.card:hover{
+    scale:1.05;
+}
+.card h1{
+    color: var(--gold-c);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.card p{
+    color: rgb(0, 0, 0);
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+}
+}
+

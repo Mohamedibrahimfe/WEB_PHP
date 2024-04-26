@@ -424,12 +424,27 @@ section .container p::before{
     position: relative;
     justify-content: flex-end;
 }
+.card::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 3px;
+    top: 1px;
+    background-color: var(--gold-c);
+    width: 0;
+    transition: var(--trans-duration);
+}
+.card:hover::before{
+    content: '';
+    width: 100%;
+}
 .card img::before{
     content: "";
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-color: rgb(255, 251, 12);
+    background-color: rgb(255, 178, 12);
     position: absolute;
     margin: 0 auto;
     transform: translate(55%, -50%);

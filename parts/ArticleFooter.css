@@ -1,0 +1,171 @@
+/* --------------------note-------------------- */
+
+
+
+
+.containe{
+    background: rgb(255, 255, 255);
+    background-color: #f3f3f3bd;
+    padding-top: 20px;
+    width: 100%;
+    height: 100vh;
+    /* box-shadow: 20px 20px 20px -20px black ; */
+    /* border-radius: 30px; */
+     overflow-y: scroll;  
+}
+.containe .head{
+    /* background-color: #f3f3f3bd; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 100px;
+}
+.containe .top_note{
+    height: 220px;
+    width: 220px;
+    border-radius: 30px;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.containe .top_note h1{
+    border:  dashed 3px black;
+    cursor: pointer;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 50px;
+}
+
+
+
+/* add notes */
+.containe #add_notes{
+    
+position: absolute;
+top: 0;
+left: 10px;
+    border:  solid 3px black;
+    cursor: text;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 30px;
+    font-size: 20px;
+    resize: none;
+    padding: 20px;
+    outline: none;
+    display: none;
+    transition: .5s all ease;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+/* new note */
+
+.newnote{
+    position: relative;
+    height: 280px;
+    width: 220px;
+    background-color: #6dd571;
+    background-color: #4caf50;
+    margin-left: 10px;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    box-shadow: 10px 10px 10px -13px black;
+    font-family: Arial, Helvetica, sans-serif;
+    word-break: break-all;
+    overflow-y: scroll;
+    display: inline-block;
+    cursor: pointer;
+    margin: 7px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* scroll bar */
+
+
+.newnote::-webkit-scrollbar{
+    background: transparent;
+    width: 10px;
+}
+
+.newnote::-webkit-scrollbar-track{
+    background: transparent;
+    border-radius: 30px;
+}
+
+.newnote::-webkit-scrollbar-thumb{
+    background: rgb(104, 104, 104);
+    border-radius: 30px;
+} 
+
+
+
+#add_notes::-webkit-scrollbar{
+    background: transparent;
+    width: 10px;
+}
+#add_notes::-webkit-scrollbar-track{
+    background: transparent;
+    border-radius: 30px;
+}
+#add_notes::-webkit-scrollbar-thumb{
+    background: rgb(104, 104, 104);
+    border-radius: 30px;
+} 
+
+
+
+.containe::-webkit-scrollbar{
+    background: transparent;
+    width: 10px;
+}
+.containe::-webkit-scrollbar-track{
+    background: transparent;
+    border-radius: 30px;
+}
+.containe::-webkit-scrollbar-thumb{
+    background: rgb(104, 104, 104);
+    border-radius: 30px;
+} 
+/* media (notes) */
+@media screen and (max-width:477px) and (min-width:415px) {
+    .newnote{
+        position: relative;
+        height: 280px;
+        width: 220px;
+        background-color: #4caf50;
+        margin-left: 10px;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 20px;
+        font-weight: bolder;
+        box-shadow: 10px 10px 10px -13px black;
+        font-family: Arial, Helvetica, sans-serif;
+        word-break: break-all;
+        overflow-y: scroll;
+        display: inline-block;
+        cursor: pointer;
+        margin: 7px 120px ;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+

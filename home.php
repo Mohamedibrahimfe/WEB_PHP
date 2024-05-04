@@ -9,10 +9,12 @@
     <link rel="stylesheet" href="stat assets/bootstrap.min.css">
     <link rel="stylesheet" href="stat assets/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/note.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
     </link>
     <script src="js/gsap.js" defer></script>
     <script src="js/animation.js" defer></script>
+
 </head>
 
 <body>
@@ -121,67 +123,72 @@
         </div>
     </div>
     <!-- Team Members -->
-    <div class="team_members" id="team_members">
-        <div class="container one">
-            <div class="cards">
-                <div class="card">
+    <div class="team_members " id="team_members">
+        <div class="container one slider-container">
+            <div class="cards slider ">
+                <div class="card swiper-slide">
                     <img src="" alt="">
                     <h1>MOHAMED Ibrahim</h1>
                     <p>FULL-STACK</p>
                 </div>
-                <div class="card">
+                <div class="card swiper-slide">
                     <img src="" alt="">
                     <h1>AMR WAEL</h1>
                     <p>FRONT-END</p>
                 </div>
-                <div class="card">
+                <div class="card swiper-slide">
                     <img src="" alt="">
                     <h1>ABDELNAAEM</h1>
                     <p>BACK-END</p>
                 </div>
-                <div class="card">
+                <div class="card swiper-slide">
                     <img src="" alt="">
                     <h1>MOFTA7</h1>
                     <p>BACK-END</p>
                 </div>
-                <div class="card">
+                <div class="card swiper-slide">
                     <img src="" alt="">
                     <h1>AYA ZAKRIA</h1>
                     <p>FRONT-END</p>
                 </div>
-                <div class="card">
+                <div class="card swiper-slide">
                     <img src="" alt="">
                     <h1>NADA</h1>
                     <p>FRONT-END</p>
                 </div>
-                <div class="card">
+                <div class="card swiper-slide">
                     <img src="" alt="">
                     <h1>SALMA</h1>
                     <p>UI/UX</p>
                 </div>
-                <div class="card">
+                <div class="card swiper-slide">
                     <img src="" alt="">
                     <h1>HASNAA</h1>
                     <p>UI/UX</p>
                 </div>
-                <div class="card">
+                <div class="card swiper-slide">
                     <img src="" alt="">
                     <h1>MAYAR</h1>
                     <p>UI/UX</p>
                 </div>
+                <i class="fa-solid fa-arrow-left prev"></i>
+                <i class="fa-solid fa-arrow-right next"></i>
             </div>
         </div>
+
     </div>
-
-
     <!-- End about us -->
-
 
     <!-- <script src="js/bootstrap.js"></script> -->
     <!-- <script src="stat assets/bootstrap.js" ></script> -->
+    <!-- note -->
 
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/toggle.js"></script>
+    <script src="js/note.js"></script>
+
 </body>
 
 </html>

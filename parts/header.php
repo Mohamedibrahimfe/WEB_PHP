@@ -14,8 +14,18 @@
         <li class="nav-item ">
             <a href="#articles" class="dropdown-toggle nav-link">Articles</a>
             <ul class="dropdown" id="dropdown">
-                <a href="#" class="child"> Nobel prize</a>
-                <a href="#" class="child"> Literature</a>
+                <a class="child"> Nobel prize
+                    <ul>
+                        <a href="parts/Aya.php" class="child"> El Baradei</a>
+                        <a href="Aya.php" class="child"> El Sadat</a>
+                        <a href="Aya.php" class="child"> Ahmed Zewail</a>
+                    </ul>
+                </a>
+                <a href="#" class="child"> Literature
+                    <ul>
+                        <a href="Aya.php" class="child"> Naguib Mahfouz</a>
+                    </ul>
+                </a>
             </ul>
         </li>
         <li><a class="nav-link" href="/contact.html">Skills</a></li>

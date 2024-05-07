@@ -60,7 +60,7 @@
                     <p>Nobel Prize in Literature </p>
                 </div>
                 <div class="info">
-                    <a href="parts/Aya.php">Read More</a>
+                    <a href="parts/mahfouz.php">Read More</a>
                     <i class="fas fa-long-arrow-alt-right"></i>
                 </div>
             </div>
@@ -72,7 +72,7 @@
                     <p>Nobel Prize in peace 1978</p>
                 </div>
                 <div class="info">
-                    <a href="parts/Aya.php">Read More</a>
+                    <a href="parts/sadat.php">Read More</a>
                     <i class="fas fa-long-arrow-alt-right"></i>
                 </div>
             </div>
@@ -84,7 +84,7 @@
                     <p>Nobel Prize in peace 2005</p>
                 </div>
                 <div class="info">
-                    <a href="parts/Aya.php">Read More</a>
+                    <a href="parts/baradie.php">Read More</a>
                     <i class="fas fa-long-arrow-alt-right"></i>
                 </div>
             </div>

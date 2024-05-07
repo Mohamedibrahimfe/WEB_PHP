@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kemet Chronicles</title>
-    <link rel="stylesheet" href="stat assets/all.min.css">
-    <link rel="stylesheet" href="stat assets/bootstrap.min.css">
-    <link rel="stylesheet" href="stat assets/normalize.css">
+    <link rel="stylesheet" href="staAssets/all.min.css">
+    <!-- <link rel="stylesheet" href="staAssets/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="staAssets/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="css/note.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">

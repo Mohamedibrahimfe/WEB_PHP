@@ -55,6 +55,14 @@
     padding: 0 1rem;
     transition-duration: 0.5s;
 }
+@media (max-width: 1002px) {
+    .navbar{
+        justify-content: center;
+    }
+    .nav-logo{
+        display: none;
+    }
+}
 @media  (max-width:767px) {
     body.active{
         overflow-y: hidden;
@@ -133,48 +141,4 @@
     color: var(--gold-c);
     background-color: var(--gold-c);
 }
-/* ///////////////////////// */
-.dropdown-toggle:after {
-    position: absolute;
-    top: 9px;
-    content: "\25BC"; /* Downward caret symbol */
-    font-family: Arial, sans-serif; /* Adjust font family if needed */
-    font-size: 12px; /* Adjust font size if needed */
-    /* margin-left: 5px; Spacing between text and caret */
-}
-.dropdown{
-    display: none;
-}
-.dropdown.is-active{
-    position: absolute;
-    top: 85px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    background-color:rgba(0, 0, 0, 0.2);
-    align-items: center;
-    justify-content:center;
-    border-radius: 6px;
-}
-.dropdown.is-active a{
-    color:var(--sec-c-green);
-    text-decoration: none;
-    font-size: 18px;
-    margin: 6px 8px;
-    position: relative;
-    font-weight: 800;
-}
-.dropdown.is-active a::before{
-    content: "";
-    width: 0;
-    height: 0;
-}
-.dropdown.is-active a:first-child::after{
-    content: "";
-    height: 5px;
-    width: 100%;
-    color: #000000;
-}
-.dropdown.is-active a:hover{
-    color:var(--gold-c);
-}
+

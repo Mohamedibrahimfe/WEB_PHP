@@ -1,5 +1,9 @@
 <head>
     <style>
+    body {
+        background-color: gainsboro;
+    }
+
     div {
         line-height: 1.6;
         scroll-margin: 10rem;

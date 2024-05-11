@@ -8,46 +8,12 @@ const mobileMenu = function () {
     documentBody.classList.toggle('active');
 };
 menu.addEventListener('click', mobileMenu)
-
-
-// Amr
-// let add_notes=document.getElementById('add_notes');
-// let top_note=document.querySelector('.top_note');
-// let containe=document.querySelector('.containe');
-// let notes=document.querySelector('.notes');
-// let del=document.querySelector('.delete');
-
-
-// append the text box
-// function add_note(){
-//     add_notes.style.display='block';
-// }
-
-
-// // add note by double click
-// add_notes.addEventListener('dblclick',()=>{
-//     if(add_notes.value!=''){
-//         let note=document.createElement('div');
-//         note.className='newnote'
-//         note.innerHTML=`
-//         <div >${add_notes.value}</div>
-//         `
-
-//         containe.appendChild(note);
-//         add_notes.value='';
-//         // add_notes.style.display='none'
-
-//         // remove note by double click
-//         note.addEventListener('dblclick',()=>{
-//             note.remove();
-//         })
-
-//     }
-//     else {
-//         add_notes.innerHTML=''
-//         add_notes.style.display='none' ;
-//     }
-// })
+const icon = document.querySelector('.user')
+const menu1 = document.querySelector('.menu')
+function show () {
+  menu1.classList.toggle('active')
+}
+icon.addEventListener('click', show)
 //
 
 $(document).ready(function(){
@@ -112,4 +78,20 @@ var intervalId = setInterval(nextSlide, 3000) // Change slide every 3 seconds (a
 
     $('.next').click(nextSlide);
     $('.prev').click(prevSlide);
-});
+}
+);
+// 
+
+
+
+
+// colors
+let aboutUs=document.querySelector('.contact_us');
+let random_number=()=>{
+    return Math.floor(Math.random()*200);
+}
+let random_color=()=>{
+    let color=`rgb(${random_number()},${random_number()},${random_number()})`;
+    aboutUs.style.background=color;
+}
+aboutUs.addEventListener('click',random_color);

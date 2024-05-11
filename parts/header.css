@@ -121,6 +121,14 @@
         color: var(--sec-c-green);
     }
 }
+@media (max-width: 1199px) {
+    .navbar{
+        justify-content: center;
+    }
+    .nav-logo{
+        display: none;
+    }
+}
 .navbar .navbar-menu a::before{
     content: '';
     position: absolute;
@@ -142,3 +150,39 @@
     background-color: var(--gold-c);
 }
 
+
+.fa-user:before{
+    font-size:28px;
+    position: absolute;
+    transform: translateY(3px);
+    cursor: pointer;
+}
+.user{
+    position: relative;
+}
+.menu{
+    display: none;
+}
+.menu button{
+    color:#32B138 ; 
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    padding: 5px;
+}
+.menu button:hover{
+    background-color: #00ff0d;
+    color: white;
+}
+.menu.active{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #ffffff6b;
+    position: absolute;
+    top: 70px;
+    padding: 15px;
+    left: -40px;
+    border-radius: 6px;
+}

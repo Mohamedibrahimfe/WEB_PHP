@@ -48,7 +48,7 @@
                     <p>Nobel Prize in Chemistry 1999</p>
                 </div>
                 <div class="info">
-                    <a href="parts/Aya.php">Read More</a>
+                    <a href="parts/sadat.php">Read More</a>
                     <i class="fas fa-long-arrow-alt-right"></i>
                 </div>
             </div>
@@ -107,7 +107,58 @@
     </div>
     <!-- End Contact us -->
 
-    <!-- Start about us -->
+
+
+    <!-- carousel -->
+    <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+        <h1 class="main-title">Golden Pictures</h1>
+        <div class="container">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="images/leonardo.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/Zewail_HD.jpeg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/mahfouz.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- End carousel -->
+
+    <!-- Abut&members -->
     <div class="aboutus" id="about_us">
         <h2 class="main-title">About Us</h2>
         <div class="container one">
@@ -122,7 +173,6 @@
             <a href="#team_members" class="team_member">Team Members</a>
         </div>
     </div>
-    <!-- Team Members -->
     <div class="team_members " id="team_members">
         <div class="container one slider-container">
             <div class="cards slider ">
@@ -194,8 +244,10 @@
                             Kemet Chronicles
                         </h6>
                         <p>
-                            Welcome to Egyptian Eye, Egyptian Eye: Peer into the heart of Egyptian literature and meet
-                            the minds that shone on the world stage. Explore timeless tales, celebrate Nobel laureates,
+                            Welcome to Egyptian Eye, Egyptian Eye: Peer into the heart of Egyptian literature and
+                            meet
+                            the minds that shone on the world stage. Explore timeless tales, celebrate Nobel
+                            laureates,
                             and uncover the brilliance that lives on.
                         </p>
                     </div>
@@ -302,7 +354,7 @@
     </footer>
     <!-- Footer -->
 
-    <!-- <script src="js/bootstrap.js"></script> -->
+    <script src="statAssets/bootstrap.js"></script>
     <!-- <script src="stat assets/bootstrap.js" ></script> -->
     <!-- note -->
 

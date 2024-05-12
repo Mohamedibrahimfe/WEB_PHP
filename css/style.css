@@ -912,6 +912,7 @@ section .container p::before{
 .team_members{
     display: flex;
     background-color: #f3f3f3bd;
+    padding-bottom:var(--main-padding) ;
 }
 .card{
     width: 320px;
@@ -1077,4 +1078,24 @@ section .container p::before{
     width: 300px; 
     margin-right: 20px;
     padding: 20px;
+}
+/* Carousel */
+#carouselExampleDark{
+    padding-top: var(--main-padding);
+    padding-bottom: var(--main-padding);
+}
+.carousel-inner img{
+    /* height: auto;
+    max-height: 800px; */
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    background-color: rgba(0, 0, 0, 0.225);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    
 }

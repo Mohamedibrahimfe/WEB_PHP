@@ -13,6 +13,7 @@
     <div class="navbar-menu">
         <li><a class="nav-link" href="#hero">Home</a></li>
         <li class="nav-item "><a href="#articles" class="nav-link">Articles</a></li>
+        <li><a class="nav-link" href="#carouselExampleDark">Pictures</a></li>
         <li><a class="nav-link" href="#about_us">About</a></li>
         <li><a class="nav-link" href="#team_members">Our Team</a></li>
         <li><a class="nav-link" href="#contact_us">Contact</a></li>

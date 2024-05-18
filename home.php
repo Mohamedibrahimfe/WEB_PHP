@@ -86,7 +86,7 @@
                         <p>Nobel Prize in peace 2005</p>
                     </div>
                     <div class="info">
-                        <a href="parts/baradie.php">Read More</a>
+                        <a href="parts/Elbaradei.php">Read More</a>
                         <i class="fas fa-long-arrow-alt-right"></i>
                     </div>
                 </div>
@@ -122,24 +122,87 @@
                         aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
                         aria-label="Slide 3"></button>
+
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6"
+                        aria-label="Slide 7"></button>
+
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7"
+                        aria-label="Slide 8"></button>
+
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="8"
+                        aria-label="Slide 9">
+                    </button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="9"
+                        aria-label="Slide 10">
+                    </button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="10"
+                        aria-label="Slide 11">
+                    </button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="11"
+                        aria-label="Slide 12">
+                    </button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="" class="d-block w-100" alt="...">
+                        <img src="images\gold\IMG-20240518-WA0004.jpg" class="d-block w-100" height="700px" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>First slide label</h5>
                             <p>Some representative placeholder content for the first slide.</p>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <img src="" class="d-block w-100" alt="...">
+                        <img src="images\gold\IMG-20240518-WA0005.jpg" class="d-block w-100" height="700px" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Second slide label</h5>
                             <p>Some representative placeholder content for the second slide.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="" class="d-block w-100" alt="...">
+                        <img src="images\gold\IMG-20240518-WA0006.jpg" class="d-block w-100" height="700px" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images\gold\IMG-20240518-WA0007.jpg" class="d-block w-100" height="700px" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images\gold\IMG-20240518-WA0008.jpg" class="d-block w-100" height="700px" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images\gold\IMG-20240518-WA0009.jpg" class="d-block w-100" height="700px" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images\gold\IMG-20240518-WA0010.jpg" class="d-block w-100" height="700px" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images\gold\IMG-20240518-WA0011.jpg" class="d-block w-100" height="700px" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Third slide label</h5>
                             <p>Some representative placeholder content for the third slide.</p>

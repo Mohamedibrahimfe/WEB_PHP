@@ -13,7 +13,7 @@
         <!-- <link rel="stylesheet" href="css/note.css"> -->
         <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
         </link>
-        <script src="js/gsap.js" defer></script>
+        <script src="js/gsap.   js" defer></script>
         <script src="js/animation.js" defer></script>
 
     </head>
@@ -365,7 +365,6 @@
         <script src="statAssets/bootstrap.js"></script>
         <script src="statAssets/jquery.min.js"></script>
         <script src="js/toggle.js"></script>
-        <script src="js/note.js"></script>
     </body>
 
     </html>

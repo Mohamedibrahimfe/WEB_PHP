@@ -31,9 +31,6 @@
                         Nobel
                         laureates, and uncover the brilliance that lives on.</p>
                 </div>
-                <!-- <div class="right">
-                <img class="main-pic" src="images/fun-3d-cartoon-illustration-indian-businessman.jpg" alt="">
-            </div> -->
             </div>
             <a href="#articles"><i class="tail fas fa-angle-double-down fa-2x"></i></a>
         </section>
